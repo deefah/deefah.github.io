@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .display, .course{
+            display: flex;
+            
+            
+        }
+
+        body{
+    background-color:lightslategray;
+}
+.container{
+    width: 700px;
+    background-color: rgb(89, 129, 163);
+    margin-left: 200px;
+    height: 400px;
+}
+h1{
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+ul > li{
+    list-style-type: square;
+}
+
+.second, .first{
+    margin-left: 70px;
+}
+
+
+.iot{
+    display: flex;
+}
+
+.h4{
+    margin-left: 80%;
+  
+}
+
+@media (max-width: 900px) {
+            .h4{
+                margin-left: 60%;
+               
+              }
+        }
+
+/* @media(min-width:600px)
+            {
+                body{
+                    background-color: red;
+                }
+            } */
+
+        @media (max-width: 599px) {
+            .container{
+                
+                width: 450px;
+                margin-left: 90px;
+                height: 400px;
+                background-color: rgb(89, 129, 163)
+              }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="sidenav" id="mysidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" >&times</a>
+        <a href="index.html">Personal Information and Educational Background</a>
+        <a href="login.html">Login</a>
+        <a href="experience.html">Working and Management Experience </a>
+        <a href="skills.html">Skills and Professional Course</a>
+        <a href="projects.html">Projects and dependents</a>
+        <a href="contact.html">Contact Us</a>
+        
+
+
+    </div>
+
+    <div class="nav">
+
+        <span onclick="openNav()" class="span" style="font-size: 20px;cursor: pointer; margin-left: 20px;">&#9776  <h4 class="h4">PERSONAL WEBSITE</h4></span>
+    </div>
+
+    <div class="main">
+
+        
+    </div>
+    <div class="updte">
+
+    <div class="container">
+    <h1>Skills</h1>
+    <hr>
+
+    <div class="display">
+
+     
+
+        <div>
+            <ul>
+                <li>public speaking</li>
+                <li>to work in team</li>
+                <li>empathy</li>
+                
+            </ul>
+        </div>
+
+        <div class="first">
+            <ul>
+                <li>HTML & CSS</li>
+                <li>Bootstrap</li>
+            </ul>
+        </div>
+
+       
+
+    </div>
+
+    
+
+    <h1>Professional courses</h1>
+    <hr>
+    <div class="course">
+    <div>
+        <ul>
+            <li>Machine Learning</li>
+
+        <div class="iot">
+            <li>IOT</li>
+            
+        </div>
+            <li>Project Management</li>
+            
+        </ul>
+    </div>
+
+    <div class="second">
+        <ul>
+            <li>Cloud Computing</li>
+            <li>Software Development</li>
+        </ul>
+    </div>
+
+   
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

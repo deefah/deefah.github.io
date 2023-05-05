@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<style>
+       .log{
+            width: 500px;
+            height: 500px;
+            margin-left: 300px;
+        }
+
+        @media (max-width: 599px) {
+                .log{width:300px;
+                height:200px;
+                margin-left: 50px;
+            
+            }
+            }
+
+            
+        input{
+            margin-top: 30px;
+            margin-left: 50px;
+            width: 300px;
+            height: 30px;
+        }
+
+        .btn{
+            width: 100px;
+            height: 25px;
+            margin-left: 50px;
+
+        }
+        h1{
+            text-align: center;
+            padding-top: 9px;
+            color: white;
+        }
+
+        .form{
+            box-shadow: 0 0 20px black;
+        }
+        textarea{
+            height: 150px;
+            margin-left: 50px;
+            width: 200px;
+        }
+
+        h3{
+            margin-left: 20px;
+            padding-top: 8px;
+        }
+
+        
+</style>
+<body style="background-color: lightslategray;">
+    <div class="sidenav" id="mysidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" >&times</a>
+        <a href="index.html">Personal Information and Educational Background</a>
+        <a href="login.html">Login</a>
+        <a href="experience.html">Working and Management Experience </a>
+        <a href="skills.html">Skills and Professional Course</a>
+        <a href="projects.html">Projects and dependents</a>
+        <a href="contact.html">Contact Us</a>
+        
+
+
+    </div>
+
+<div class="nav">
+
+    
+
+    <span onclick="openNav()" class="span" style="font-size: 20px;cursor: pointer; margin-left: 20px;">&#9776  <h4>PERSONAL WEBSITE</h4></span>
+</div>
+
+    <div class="main">
+
+        
+    </div>
+
+
+
+    <div class="updte" >
+        <div class="log">
+        <div class="form" style="background-color: rgb(89, 129, 163);width: 400px; height: 450px;">
+            <form action="" >
+            
+                <h1>LOGIN FORM</h1>
+                    <input type="text" placeholder="name"> <br> 
+
+                    <input type="text" placeholder="password"><br> <br>
+                    <button class="btn" > login</button>
+
+
+
+                    <!-- <textarea  id="comment" name="comment"  style="margin-top: 30px;">
+
+                    </textarea> -->
+
+                    <div  style="background-color: aliceblue; width: 350px; margin-left: 40px; height: 180px;">
+
+                    <h3 id="name"></h3>
+                    <h3 id="address"></h3>
+                    <h3 id="email"></h3>
+                    <h3 id="comments"></h3>
+                </div>
+               
+            </form>
+        </div>
+    </div>
+    </div>
+
+        <script src="index.js"></script>
+        <script src="javascript.js"></script>
+</body>
+</html>

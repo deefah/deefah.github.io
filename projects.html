@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projects</title>
+    <style>
+
+td{
+    padding: 10px 10px 10px 10px;
+    border: 2px solid black;
+    text-align: end;
+    font-size: 20px;
+}
+
+th{
+    padding: 10px;
+    border: 2px solid black;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+
+@media (max-width: 599px) {
+    td,th{
+       
+        padding: 5px 5px 5px 5px;
+        font-size: 10px;
+    }
+    
+}
+
+table{
+    border: 2px solid black;
+    border-collapse: collapse; 
+    /* margin-left: 30px; */
+}
+/* .project{
+    margin-left: 200px;
+} */
+body{
+    background-color:lightslategray;
+}
+
+ol >li{
+    font-style: italic;
+    text-transform: uppercase;
+    
+}
+
+#dependents{
+    margin-left: 80%;
+}
+
+@media (max-width: 599px) {
+    #dependents{
+       
+        margin-left: 50%;
+    }
+    
+}
+
+.project{
+    background-color:  rgb(89, 129, 163);
+     width: 990px;
+      height: 700px; 
+      margin-left: 50px;
+}
+
+@media (max-width: 599px) {
+   .project{
+       
+        margin-left: 10%;
+        height: 550px;
+    }
+    
+}
+
+
+
+    </style>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div class="sidenav" id="mysidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" >&times</a>
+        <a href="index.html">Personal Information and Educational Background</a>
+        <a href="login.html">Login</a>
+        <a href="experience.html">Working and Management Experience </a>
+        <a href="skills.html">Skills and Professional Course</a>
+        <a href="projects.html">Projects and dependents</a>
+        <a href="contact.html">Contact Us</a>
+        
+
+
+    </div>
+
+    <div class="nav">
+
+        <span onclick="openNav()" class="span" style="font-size: 20px;cursor: pointer; margin-left: 20px;">&#9776  <h4>PERSONAL WEBSITE</h4></span>
+    </div>
+
+    <div class="main"> </div>
+
+    <div class="updte">
+
+    <div class="project">
+       
+            <ol>
+                <h2>First project</h2>
+                <li>Car Parking System</li> <br>
+                    <table>
+                        <thead>
+                            <th>languages</th>
+                            <th>FrameWorks</th>
+                            <th>Database</th>
+                            <th>Role</th>
+                            <th>Date Of Completion</th>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Python <br> HTML, CSS</td>
+                                <td>Flask <br> bootstrap</td>
+                                <td>PostgreSql</td>
+                                <td>Designer and developer</td>
+                                <td>February, 2023</td>
+
+                            </tr>
+                           
+                        </tbody>
+                        
+                    </table> <br> 
+
+             <h2>Second project</h2>
+                <li>Matumizi Management system</li> <br>
+                <table>
+                    <thead>
+                        
+                        <th>FrameWorks</th>
+                        <th>Database</th>
+                        <th>Role</th>
+                        <th>Date Of Completion</th>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                           
+                            <td>Flask <br> Flutter</td>
+                            <td>PostgreSql</td>
+                            <td>Designer and developer</td>
+                            <td>not complete</td>
+
+                        </tr>
+                       
+                    </tbody>
+                </table> <br>
+            
+               <h2>Third project</h2> 
+                    
+                <li>Transport License Application System</li> <br>
+                <table>
+                    <thead>
+                        
+                        <th>FrameWorks</th>
+                        <th>Database</th>
+                        <th>Role</th>
+                        <th>Date Of Completion</th>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                           
+                            <td>Angular <br> Springboot</td>
+                            <td>MySql</td>
+                            <td>Designer and frontend developer</td>
+                            <td>october, 2022</td>
+
+                        </tr>
+                       
+                    </tbody>
+                </table>
+
+            </ol>
+    </div>
+    </div>
+    <hr>
+
+    <div id="dependents">
+
+        <dl>
+            <dt>Zuhra Mussa Othman</dt>
+            <dd> - +255 098 457 898</dd>
+            <dt>Rumaithah Abdul-swammad</dt>
+            <dd>- +255 657 898 097</dd>
+            <dt>Mushfiq Abdul Alawi</dt>
+            <dd>- +255 456 567 867</dd>
+            <dt>Rihlat Juma Maulid</dt>
+            <dt>Suhayb Abdul-swammad</dt>
+            <dt>Rahil Juma Maulid</dt>
+        </dl>
+
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
