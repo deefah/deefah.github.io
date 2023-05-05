@@ -46,6 +46,7 @@
 
     background-color: rgb(89, 129, 163);
     flex-wrap:wrap;
+    width: 100%;
     /* position: fixed;
     overflow: auto; */
 }
